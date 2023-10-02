@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random password generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="generator">
+        <h1>Generate a <br /><span>Random password</span></h1>
+        <label for="length">Enter length of password:</label>
+
+        <input id="length" type="number" />
+
+        <div class="input">
+          <input type="text" id="password" />
+          <img
+            src="Images/layer.png"
+            alt="copy"
+            title="Copy to clipboard"
+            onclick="copyText()" />
+        </div>
+        <button onclick="generatePassword()">
+          <img src="Images/flash.png" alt="" /> Generate password
+        </button>
+      </div>
+      <div class="note">
+        <h2>Note:</h2>
+        <p>Your password should be a minimum of 12 characters long.</p>
+        <p>
+          It must include a combination of uppercase letters, lowercase letters,
+          numbers, and special characters (e.g., !, @, #, $).
+        </p>
+        <p>
+          Avoid using easily guessable information such as birthdays, names, or
+          common words.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

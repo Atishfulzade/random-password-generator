@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background: linear-gradient(
+    135deg,
+    #1e5799 0%,
+    #2989d8 50%,
+    #207cca 51%,
+    #7db9e8 100%
+  );
+  padding: 100px;
+  padding-top: 150px;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 60px;
+  color: whitesmoke;
+}
+h1 span {
+  color: #ecba16;
+  text-decoration: underline;
+  font-size: 80px;
+}
+.input {
+  height: 60px;
+  background-color: #f0f1f2;
+  width: 400px;
+  margin-top: 30px;
+  max-width: 100%;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input input {
+  height: 100%;
+  width: 80%;
+  outline: none;
+  border: none;
+  text-indent: 25px;
+  font-size: 25px;
+  background-color: transparent;
+}
+.input input::placeholder {
+  font-size: 25px;
+}
+.input img {
+  width: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.container button {
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 30px;
+  background-color: #ff2147;
+  border: none;
+  box-shadow: 0 0 20px 3px #213074;
+  outline: none;
+  font-size: 22px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button img {
+  width: 20px;
+}
+.note {
+  height: 400px;
+  width: 500px;
+  padding: 50px;
+  background-color: whitesmoke;border-radius: 5px;
+}
+.generator label{
+    font-size: 25px;color: whitesmoke   ;
+}
+#length{
+    width: 70px;height: 50px;border-radius: 10px;border: none;font-size: 25px;text-indent: 20px;margin: 20px;
+}
+.note h2{
+    font-size: 30px;
+}
+.note p{
+    font-size: 20px;padding: 5px;
+}
