@@ -27,10 +27,6 @@ You can try out the live demo of this project [here](https://atishfulzade.github
 5. Your random password will be generated and displayed on the screen.
 6. Optionally, you can click the "Copy to Clipboard" button to copy the generated password to your clipboard.
 
-## Credits
-
-This project was created by [Your Name]. It's a simple demonstration of using HTML, CSS, and JavaScript to build useful web tools.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
